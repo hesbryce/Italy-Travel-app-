@@ -1,0 +1,951 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DA3BBB2C2E1812EE00D3A321 /* KMB-watch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = DA3BBB0C2E1812ED00D3A321 /* KMB-watch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA3BBAEC2E1811A200D3A321 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA3BBAD12E1811A000D3A321 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA3BBAD82E1811A000D3A321;
+			remoteInfo = KMB;
+		};
+		DA3BBAF62E1811A200D3A321 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA3BBAD12E1811A000D3A321 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA3BBAD82E1811A000D3A321;
+			remoteInfo = KMB;
+		};
+		DA3BBB192E1812EE00D3A321 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA3BBAD12E1811A000D3A321 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA3BBB0B2E1812ED00D3A321;
+			remoteInfo = "KMB-watch Watch App";
+		};
+		DA3BBB232E1812EE00D3A321 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA3BBAD12E1811A000D3A321 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA3BBB0B2E1812ED00D3A321;
+			remoteInfo = "KMB-watch Watch App";
+		};
+		DA3BBB2A2E1812EE00D3A321 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA3BBAD12E1811A000D3A321 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA3BBB0B2E1812ED00D3A321;
+			remoteInfo = "KMB-watch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		DA3BBB302E1812EE00D3A321 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				DA3BBB2C2E1812EE00D3A321 /* KMB-watch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		DA3BBAD92E1811A000D3A321 /* KMB.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KMB.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA3BBAEB2E1811A200D3A321 /* KMBTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KMBTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA3BBAF52E1811A200D3A321 /* KMBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KMBUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA3BBB0C2E1812ED00D3A321 /* KMB-watch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "KMB-watch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA3BBB182E1812EE00D3A321 /* KMB-watch Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KMB-watch Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA3BBB222E1812EE00D3A321 /* KMB-watch Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "KMB-watch Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		DA3BBADB2E1811A000D3A321 /* KMB */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = KMB;
+			sourceTree = "<group>";
+		};
+		DA3BBAEE2E1811A200D3A321 /* KMBTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = KMBTests;
+			sourceTree = "<group>";
+		};
+		DA3BBAF82E1811A200D3A321 /* KMBUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = KMBUITests;
+			sourceTree = "<group>";
+		};
+		DA3BBB0D2E1812ED00D3A321 /* KMB-watch Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "KMB-watch Watch App";
+			sourceTree = "<group>";
+		};
+		DA3BBB1B2E1812EE00D3A321 /* KMB-watch Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "KMB-watch Watch AppTests";
+			sourceTree = "<group>";
+		};
+		DA3BBB252E1812EE00D3A321 /* KMB-watch Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "KMB-watch Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA3BBAD62E1811A000D3A321 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA3BBAE82E1811A200D3A321 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA3BBAF22E1811A200D3A321 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA3BBB092E1812ED00D3A321 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA3BBB152E1812EE00D3A321 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA3BBB1F2E1812EE00D3A321 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA3BBAD02E1811A000D3A321 = {
+			isa = PBXGroup;
+			children = (
+				DA3BBADB2E1811A000D3A321 /* KMB */,
+				DA3BBAEE2E1811A200D3A321 /* KMBTests */,
+				DA3BBAF82E1811A200D3A321 /* KMBUITests */,
+				DA3BBB0D2E1812ED00D3A321 /* KMB-watch Watch App */,
+				DA3BBB1B2E1812EE00D3A321 /* KMB-watch Watch AppTests */,
+				DA3BBB252E1812EE00D3A321 /* KMB-watch Watch AppUITests */,
+				DA3BBADA2E1811A000D3A321 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA3BBADA2E1811A000D3A321 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA3BBAD92E1811A000D3A321 /* KMB.app */,
+				DA3BBAEB2E1811A200D3A321 /* KMBTests.xctest */,
+				DA3BBAF52E1811A200D3A321 /* KMBUITests.xctest */,
+				DA3BBB0C2E1812ED00D3A321 /* KMB-watch Watch App.app */,
+				DA3BBB182E1812EE00D3A321 /* KMB-watch Watch AppTests.xctest */,
+				DA3BBB222E1812EE00D3A321 /* KMB-watch Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA3BBAD82E1811A000D3A321 /* KMB */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA3BBAFF2E1811A200D3A321 /* Build configuration list for PBXNativeTarget "KMB" */;
+			buildPhases = (
+				DA3BBAD52E1811A000D3A321 /* Sources */,
+				DA3BBAD62E1811A000D3A321 /* Frameworks */,
+				DA3BBAD72E1811A000D3A321 /* Resources */,
+				DA3BBB302E1812EE00D3A321 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA3BBB2B2E1812EE00D3A321 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DA3BBADB2E1811A000D3A321 /* KMB */,
+			);
+			name = KMB;
+			packageProductDependencies = (
+			);
+			productName = KMB;
+			productReference = DA3BBAD92E1811A000D3A321 /* KMB.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA3BBAEA2E1811A200D3A321 /* KMBTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA3BBB022E1811A200D3A321 /* Build configuration list for PBXNativeTarget "KMBTests" */;
+			buildPhases = (
+				DA3BBAE72E1811A200D3A321 /* Sources */,
+				DA3BBAE82E1811A200D3A321 /* Frameworks */,
+				DA3BBAE92E1811A200D3A321 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA3BBAED2E1811A200D3A321 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DA3BBAEE2E1811A200D3A321 /* KMBTests */,
+			);
+			name = KMBTests;
+			packageProductDependencies = (
+			);
+			productName = KMBTests;
+			productReference = DA3BBAEB2E1811A200D3A321 /* KMBTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA3BBAF42E1811A200D3A321 /* KMBUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA3BBB052E1811A200D3A321 /* Build configuration list for PBXNativeTarget "KMBUITests" */;
+			buildPhases = (
+				DA3BBAF12E1811A200D3A321 /* Sources */,
+				DA3BBAF22E1811A200D3A321 /* Frameworks */,
+				DA3BBAF32E1811A200D3A321 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA3BBAF72E1811A200D3A321 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DA3BBAF82E1811A200D3A321 /* KMBUITests */,
+			);
+			name = KMBUITests;
+			packageProductDependencies = (
+			);
+			productName = KMBUITests;
+			productReference = DA3BBAF52E1811A200D3A321 /* KMBUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		DA3BBB0B2E1812ED00D3A321 /* KMB-watch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA3BBB2D2E1812EE00D3A321 /* Build configuration list for PBXNativeTarget "KMB-watch Watch App" */;
+			buildPhases = (
+				DA3BBB082E1812ED00D3A321 /* Sources */,
+				DA3BBB092E1812ED00D3A321 /* Frameworks */,
+				DA3BBB0A2E1812ED00D3A321 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				DA3BBB0D2E1812ED00D3A321 /* KMB-watch Watch App */,
+			);
+			name = "KMB-watch Watch App";
+			packageProductDependencies = (
+			);
+			productName = "KMB-watch Watch App";
+			productReference = DA3BBB0C2E1812ED00D3A321 /* KMB-watch Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA3BBB172E1812EE00D3A321 /* KMB-watch Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA3BBB312E1812EE00D3A321 /* Build configuration list for PBXNativeTarget "KMB-watch Watch AppTests" */;
+			buildPhases = (
+				DA3BBB142E1812EE00D3A321 /* Sources */,
+				DA3BBB152E1812EE00D3A321 /* Frameworks */,
+				DA3BBB162E1812EE00D3A321 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA3BBB1A2E1812EE00D3A321 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DA3BBB1B2E1812EE00D3A321 /* KMB-watch Watch AppTests */,
+			);
+			name = "KMB-watch Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "KMB-watch Watch AppTests";
+			productReference = DA3BBB182E1812EE00D3A321 /* KMB-watch Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DA3BBB212E1812EE00D3A321 /* KMB-watch Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA3BBB342E1812EE00D3A321 /* Build configuration list for PBXNativeTarget "KMB-watch Watch AppUITests" */;
+			buildPhases = (
+				DA3BBB1E2E1812EE00D3A321 /* Sources */,
+				DA3BBB1F2E1812EE00D3A321 /* Frameworks */,
+				DA3BBB202E1812EE00D3A321 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA3BBB242E1812EE00D3A321 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				DA3BBB252E1812EE00D3A321 /* KMB-watch Watch AppUITests */,
+			);
+			name = "KMB-watch Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "KMB-watch Watch AppUITests";
+			productReference = DA3BBB222E1812EE00D3A321 /* KMB-watch Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA3BBAD12E1811A000D3A321 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					DA3BBAD82E1811A000D3A321 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					DA3BBAEA2E1811A200D3A321 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = DA3BBAD82E1811A000D3A321;
+					};
+					DA3BBAF42E1811A200D3A321 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = DA3BBAD82E1811A000D3A321;
+					};
+					DA3BBB0B2E1812ED00D3A321 = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					DA3BBB172E1812EE00D3A321 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = DA3BBB0B2E1812ED00D3A321;
+					};
+					DA3BBB212E1812EE00D3A321 = {
+						CreatedOnToolsVersion = 16.3;
+						TestTargetID = DA3BBB0B2E1812ED00D3A321;
+					};
+				};
+			};
+			buildConfigurationList = DA3BBAD42E1811A000D3A321 /* Build configuration list for PBXProject "KMB" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA3BBAD02E1811A000D3A321;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = DA3BBADA2E1811A000D3A321 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA3BBAD82E1811A000D3A321 /* KMB */,
+				DA3BBAEA2E1811A200D3A321 /* KMBTests */,
+				DA3BBAF42E1811A200D3A321 /* KMBUITests */,
+				DA3BBB0B2E1812ED00D3A321 /* KMB-watch Watch App */,
+				DA3BBB172E1812EE00D3A321 /* KMB-watch Watch AppTests */,
+				DA3BBB212E1812EE00D3A321 /* KMB-watch Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA3BBAD72E1811A000D3A321 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA3BBAE92E1811A200D3A321 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA3BBAF32E1811A200D3A321 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA3BBB0A2E1812ED00D3A321 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA3BBB162E1812EE00D3A321 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA3BBB202E1812EE00D3A321 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA3BBAD52E1811A000D3A321 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA3BBAE72E1811A200D3A321 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA3BBAF12E1811A200D3A321 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA3BBB082E1812ED00D3A321 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA3BBB142E1812EE00D3A321 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA3BBB1E2E1812EE00D3A321 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA3BBAED2E1811A200D3A321 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA3BBAD82E1811A000D3A321 /* KMB */;
+			targetProxy = DA3BBAEC2E1811A200D3A321 /* PBXContainerItemProxy */;
+		};
+		DA3BBAF72E1811A200D3A321 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA3BBAD82E1811A000D3A321 /* KMB */;
+			targetProxy = DA3BBAF62E1811A200D3A321 /* PBXContainerItemProxy */;
+		};
+		DA3BBB1A2E1812EE00D3A321 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA3BBB0B2E1812ED00D3A321 /* KMB-watch Watch App */;
+			targetProxy = DA3BBB192E1812EE00D3A321 /* PBXContainerItemProxy */;
+		};
+		DA3BBB242E1812EE00D3A321 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA3BBB0B2E1812ED00D3A321 /* KMB-watch Watch App */;
+			targetProxy = DA3BBB232E1812EE00D3A321 /* PBXContainerItemProxy */;
+		};
+		DA3BBB2B2E1812EE00D3A321 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA3BBB0B2E1812ED00D3A321 /* KMB-watch Watch App */;
+			targetProxy = DA3BBB2A2E1812EE00D3A321 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DA3BBAFD2E1811A200D3A321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 339H39SFM9;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DA3BBAFE2E1811A200D3A321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 339H39SFM9;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA3BBB002E1811A200D3A321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 339H39SFM9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zbellis-studios.KMB";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		DA3BBB012E1811A200D3A321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 339H39SFM9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zbellis-studios.KMB";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		DA3BBB032E1811A200D3A321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 339H39SFM9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zbellis-studios.KMBTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KMB.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KMB";
+			};
+			name = Debug;
+		};
+		DA3BBB042E1811A200D3A321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 339H39SFM9;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zbellis-studios.KMBTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KMB.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KMB";
+			};
+			name = Release;
+		};
+		DA3BBB062E1811A200D3A321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 339H39SFM9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zbellis-studios.KMBUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KMB;
+			};
+			name = Debug;
+		};
+		DA3BBB072E1811A200D3A321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 339H39SFM9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zbellis-studios.KMBUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = KMB;
+			};
+			name = Release;
+		};
+		DA3BBB2E2E1812EE00D3A321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 339H39SFM9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "KMB-watch";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "zbellis-studios.KMB";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zbellis-studios.KMB.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.6;
+			};
+			name = Debug;
+		};
+		DA3BBB2F2E1812EE00D3A321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 339H39SFM9;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "KMB-watch";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "zbellis-studios.KMB";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zbellis-studios.KMB.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.6;
+			};
+			name = Release;
+		};
+		DA3BBB322E1812EE00D3A321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 339H39SFM9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zbellis-studios.KMB-watch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KMB-watch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KMB-watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		DA3BBB332E1812EE00D3A321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 339H39SFM9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zbellis-studios.KMB-watch-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KMB-watch Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/KMB-watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
+		DA3BBB352E1812EE00D3A321 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 339H39SFM9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zbellis-studios.KMB-watch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "KMB-watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Debug;
+		};
+		DA3BBB362E1812EE00D3A321 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 339H39SFM9;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "zbellis-studios.KMB-watch-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "KMB-watch Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.4;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA3BBAD42E1811A000D3A321 /* Build configuration list for PBXProject "KMB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA3BBAFD2E1811A200D3A321 /* Debug */,
+				DA3BBAFE2E1811A200D3A321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA3BBAFF2E1811A200D3A321 /* Build configuration list for PBXNativeTarget "KMB" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA3BBB002E1811A200D3A321 /* Debug */,
+				DA3BBB012E1811A200D3A321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA3BBB022E1811A200D3A321 /* Build configuration list for PBXNativeTarget "KMBTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA3BBB032E1811A200D3A321 /* Debug */,
+				DA3BBB042E1811A200D3A321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA3BBB052E1811A200D3A321 /* Build configuration list for PBXNativeTarget "KMBUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA3BBB062E1811A200D3A321 /* Debug */,
+				DA3BBB072E1811A200D3A321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA3BBB2D2E1812EE00D3A321 /* Build configuration list for PBXNativeTarget "KMB-watch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA3BBB2E2E1812EE00D3A321 /* Debug */,
+				DA3BBB2F2E1812EE00D3A321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA3BBB312E1812EE00D3A321 /* Build configuration list for PBXNativeTarget "KMB-watch Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA3BBB322E1812EE00D3A321 /* Debug */,
+				DA3BBB332E1812EE00D3A321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA3BBB342E1812EE00D3A321 /* Build configuration list for PBXNativeTarget "KMB-watch Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA3BBB352E1812EE00D3A321 /* Debug */,
+				DA3BBB362E1812EE00D3A321 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA3BBAD12E1811A000D3A321 /* Project object */;
+}
